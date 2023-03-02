@@ -1,0 +1,31 @@
+menu "Camera Helper"    
+    choice CAMERA_MODEL
+        prompt "Camera model"
+        default CAMERA_MODEL_AI_THINKER
+
+        config CAMERA_MODEL_WROVER_KIT
+            bool "WROVER KIT"
+        config CAMERA_MODEL_ESP_EYE
+            bool "ESP EYE"
+        config CAMERA_MODEL_M5STACK_PSRAM
+            bool "M5STACK (PSRAM)"
+        config CAMERA_MODEL_M5STACK_V2_PSRAM
+            bool "M5STACK V2 (PSRAM)"
+        config CAMERA_MODEL_M5STACK_WIDE
+            bool "M5STACK WIDE"
+        config CAMERA_MODEL_M5STACK_ESP32CAM
+            bool "M5STACK ESP32CAM"
+        config CAMERA_MODEL_M5STACK_UNITCAM
+            bool "M5STACK UNITCAM"
+        config CAMERA_MODEL_AI_THINKER
+            bool "AI THINKER"
+        config CAMERA_MODEL_TTGO_T_JOURNAL
+            bool "TTGO-T JOURNAL"
+        config CAMERA_MODEL_ESP32S3_CAM_LCD
+            bool "ESP32S3 CAM LCD"
+        config CAMERA_MODEL_ESP32S2_CAM_BOARD
+            bool "ESP32S2 CAM BOARD"
+        config CAMERA_MODEL_ESP32S3_EYE
+            bool "ESP32S3 EYE"
+    endchoice
+endmenu
