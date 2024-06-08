@@ -1,0 +1,4 @@
+description: ESP32 compatible component for select pinout for popular ESP32-CAM modules
+repository: https://github.com/sky9t-sulia/esp32-cam-helper.git
+url: https://github.com/sky9t-sulia/esp32-cam-helper.git
+version: 1.0.0
